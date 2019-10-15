@@ -1,0 +1,44 @@
+{"frames": [
+
+{
+	"filename": "Slime_Walk_0.png",
+	"frame": {"x":1,"y":24,"w":48,"h":15},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":65,"w":48,"h":15},
+	"sourceSize": {"w":80,"h":80}
+},
+{
+	"filename": "Slime_Walk_1.png",
+	"frame": {"x":1,"y":1,"w":52,"h":21},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":59,"w":52,"h":21},
+	"sourceSize": {"w":80,"h":80}
+},
+{
+	"filename": "Slime_Walk_2.png",
+	"frame": {"x":55,"y":16,"w":60,"h":15},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":65,"w":60,"h":15},
+	"sourceSize": {"w":80,"h":80}
+},
+{
+	"filename": "Slime_Walk_3.png",
+	"frame": {"x":55,"y":1,"w":71,"h":13},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":67,"w":71,"h":13},
+	"sourceSize": {"w":80,"h":80}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "Slime_Walk.png",
+	"format": "RGBA8888",
+	"size": {"w":128,"h":64},
+	"scale": "0.5",
+	"smartupdate": "$TexturePacker:SmartUpdate:574c9e0c4e27b81ec6df125c814d847e:003312299ac3a6af029c4bfce0579dc7:957c84cd9cd5ec50bfddb8f738b0460a$"
+}
+}

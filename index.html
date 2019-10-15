@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>Test</title>
+	<script src="js/phaser.min.js"></script>
+	<script src="js/Boot.js"></script>
+    <script src="js/Preloader.js"></script>
+    <script src="js/MainMenu.js"></script>
+	<script src="js/Level1.js"></script>
+	<script src="js/Level2.js"></script>
+	<style>body{margin: 0; background: #000;}</style>
+	<link rel="manifest" href="/manifest.json">
+</head>
+<body>
+
+<script type="text/javascript">
+
+
+
+window.onload = function() {
+	let game = new Phaser.Game(1280, 768, Phaser.AUTO, '');
+
+	game.state.add('Boot', LootHunter.Boot);
+	game.state.add('Preloader', LootHunter.Preloader);
+	game.state.add('MainMenu', LootHunter.MainMenu);
+	game.state.add('Game', LootHunter.Game);	
+	game.state.add('Level2', LootHunter.Level2);	
+	game.state.start('Boot');
+};
+
+
+</script>
+
+</body>
+</html>
